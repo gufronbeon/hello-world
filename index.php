@@ -9,4 +9,8 @@ class Hello
 	{
 		print 'Hai, '.$name;
 	}
+	public function sayHello($name)
+	{
+		print 'Hello, '.$name;
+	}
 }
