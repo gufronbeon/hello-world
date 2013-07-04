@@ -5,4 +5,8 @@ class Hello
 	{
 		print 'hello world';
 	}
+	public function sayHi($name)
+	{
+		print 'Hai, '.$name;
+	}
 }
